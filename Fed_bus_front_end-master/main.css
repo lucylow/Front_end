@@ -1,0 +1,195 @@
+body {
+	background-color: #f0f0f0;
+	font-family: Century Gothic, sans-serif;
+	font-size: 12px;
+}
+
+a {
+	color: #b18e00;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #000000;
+}
+
+#maintable {
+	width: 80%;
+	border: 1px #dedede solid;
+	background-color: #FFF;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#headerrow {
+	text-align: center;
+	background-color:#FFCC00;
+	border: solid 1px #b18e00;
+}
+
+#headerrow td {
+	border: solid 1px #b18e00;
+	padding-left: 2em;
+	vertical-align: center;
+}
+
+#sidebar {
+	border: solid 1px #000000;
+	padding: 2em;
+	width: 8em;
+	vertical-align: top;
+
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0, #000000),
+		color-stop(1, #4A4A4A)
+	);
+	background-image: -o-linear-gradient(bottom, #000000 0%, #4A4A4A 100%);
+	background-image: -moz-linear-gradient(bottom, #000000 0%, #4A4A4A 100%);
+	background-image: -webkit-linear-gradient(bottom, #000000 0%, #4A4A4A 100%);
+	background-image: -ms-linear-gradient(bottom, #000000 0%, #4A4A4A 100%);
+	background-image: linear-gradient(to bottom, #000000 0%, #4A4A4A 100%);
+
+}
+
+#sidebar ul {
+	list-style-type: none;
+	list-style: none; 
+	padding: 4px;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+}
+
+#sidebar li{
+	padding: 4px;	
+}
+
+#sidebar ul a {
+	font-weight: 0;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	}
+
+#sidebar ul a:hover {
+	display: block;
+	color: #a3a3a3;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+}
+
+#body {
+	padding-left: 1em;
+	padding-top: 1em;
+	vertical-align: top;
+}
+
+.triptable {
+	font-family: "Lucida Grande", Tahoma;
+	background-color: #FFFCF0;
+	width: 600px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #e8d99a;
+	-webkit-box-shadow: 10px 10px 5px -9px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px -9px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px -9px rgba(0,0,0,0.75);
+}
+
+table.triptable th {
+	background-color: #ffe992;
+	border: solid 1px #cea500;
+}
+
+table.triptable tr td {
+	font-family: "Lucida Grande", Tahoma;
+	vertical-align: bottom;
+	padding-left: 1ex;
+	padding-right: 1ex;
+}
+
+.tripdate {
+	font-family: "Lucida Grande", Tahoma;
+	font-weight: 10;
+	position: relative;
+	font-size: 22px;
+	line-height: 30px;
+	color: #3c3b3b;
+	text-transform: uppercase;	
+}
+
+.tableheader {
+	font-family: "Lucida Grande", Tahoma;
+	font-size: 18px;
+	font-weight: 200;
+	margin-bottom: 0;
+	opacity: 0.7;
+	text-transform: uppercase;
+}
+
+table.invoice {
+	border: thin solid;
+	margin-bottom: 1em;
+}
+
+table.invoice th {
+	border-bottom-style: solid;
+	border-bottom-width: thin;
+	border-collapse: collapse;
+}
+
+table.invoice tr.total td {
+	font-weight: bold;
+	border-top-style: solid;
+	border-top-width: thin;
+	border-collapse: collapse;
+}
+
+.right {
+	text-align: right;
+}
+
+table.receipt {
+	border: thin solid;
+	margin-bottom: 1em;
+}
+
+.receipttitle {
+	font-weight: bold;
+	text-align: center;
+	font-variant: small-caps;
+	font-size: 125%;
+}
+
+.receiptheader {
+	font-weight: bold;
+	text-align: center;
+	font-variant: small-caps;
+}
+
+.receiptimportant {
+	font-weight: bold;
+	font-variant: small-caps;
+}
+
+h1 {
+	font-family: Century Gothic, sans-serif;
+	font-weight: bold;
+}
+
+h2 {
+	font-family: Century Gothic, sans-serif;
+	font-size: 24px;
+	text-transform: uppercase;
+	border-bottom: 1px solid #000000;
+	width: 98%;
+
+}
+h3 {
+	font-family: Century Gothic, sans-serif;
+	font-size: 14px;
+	font-weight: none;
+}
