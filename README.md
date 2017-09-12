@@ -1,1 +1,1 @@
-Collection of front-end code 
+Collection of code samples
