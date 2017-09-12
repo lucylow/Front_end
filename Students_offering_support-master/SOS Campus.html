@@ -1,0 +1,87 @@
+
+<ul class="ch-grid">
+	<li>
+		<div class="ch-item ch-img-1" style="background-image: url(http://laurier.soscampus.com/images/images/reason1.png)">
+			<div class="ch-info">
+				<h3>Made by students - for students. SOS has been raising grades since 2003.</h3>
+			
+			</div>
+		</div>
+	</li>
+	<li>
+		<div class="ch-item ch-img-2" style="background-image: url(http://laurier.soscampus.com/images/images/reason2.png)">
+			<div class="ch-info">
+				<h3>Sessions led by course-specific instructors who have aced the course you're taking now!</h3>
+				
+			</div>
+		</div>
+	</li>
+	<li>
+		<div class="ch-item ch-img-3" style="background-image: url(http://laurier.soscampus.com/images/images/reason3.png)">
+			<div class="ch-info">
+				<h3> From in-person sessions, to online videos, review packages, and practice exams. </h3>
+				
+			</div>
+		</div>
+	</li>
+</ul>
+
+
+<style>
+.ch-grid li {
+	width: 250px;
+	height: 250px;
+	display: inline-block;
+	margin: 25px;
+}
+
+
+.ch-item {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	overflow: hidden;
+	position: relative;
+	cursor: default;
+	border: double 10px #1c5675;
+        -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+        -webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+        box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+	transition: all 0.4s ease-in-out;
+	background-size: contain;
+  
+} 
+
+.ch-info {
+	position: absolute;
+	background: rgba(28,86,117,0.9);
+        text-align: center;
+	width: inherit;
+	height: inherit;
+        box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+	border-radius: 50%;
+	overflow: hidden;
+	opacity: 0;
+	transition: all 0.4s ease-in-out;
+	transform: scale(0);
+} 
+
+
+.ch-info h3 {
+	color: #fff;
+        text-align: center;
+	font-size: 22px;
+	margin: 0 30px;
+	padding: 45px 0 0 0;
+	height: 140px;
+	text-shadow: 
+		0 0 1px #fff, 
+		0 1px 2px rgba(0,0,0,0.3);
+}
+
+
+.ch-item:hover .ch-info {
+	transform: scale(1);
+	opacity: 1;
+}
+</style>

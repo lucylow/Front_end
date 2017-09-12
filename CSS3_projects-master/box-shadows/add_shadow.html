@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#shadow_Me {
+ position: absolute; 
+ width: 100px; 
+ height: 100px; 
+ color: white; 
+ border-radius: 50%;
+ background-color: blue; 
+ padding: 10px; 
+ margin: 10px; 
+}
+</style>
+
+</head>
+<body>
+
+<p>When button is clicked, the box-shadow property for the circle will be set. </p>
+
+<button onclick="shadowFunction()" > Click here: </button>
+
+<div id="shadow_Me">
+</div>
+
+<script>
+function shadowFunction() {
+ document.getElementById("shadow_Me").style.boxShadow = "10px 10px 10px gray";
+}
+</script>
+
+
+</body>
+</html>
+
